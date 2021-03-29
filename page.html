@@ -1,0 +1,38 @@
+
+ <html>
+ <head>
+    <title>File Upload</title>
+ </head>
+     <body>
+         <h1>Hellow there</h1>
+     <form  action ="/uploadfile" enctype="multipart/form-data" method = "POST">
+         <input type ="file" name = "myFiles" multiple>
+         <input type ="submit" value ="upload your file">
+            </form>
+        </br>
+         <form  action ="/uploadphoto" enctype="multipart/form-data" method = "POST">
+         <input type ="file" name = "myImage" accept ="image/*">
+         <input type ="submit" value ="upload your photo">
+         
+         </form>
+ 
+      
+     </body>
+ </html> 
+
+
+
+
+{% comment %} 
+       <div>
+                <label for="name">Image Title</label>
+                <input type="text" id="name" placeholder="Name"
+                       value="" name="name" required>
+            </div>
+            <div>
+                <label for="desc">Image Description</label>
+                <textarea id="desc" name="pesc" value="" rows="2"
+                          placeholder="Description" required>
+                </textarea>
+
+              </div>   {% endcomment %}
